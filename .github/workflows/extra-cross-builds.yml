@@ -100,7 +100,7 @@ jobs:
           # { container: 'ubuntu:26.10', target: g++-riscv64-linux-gnu, qemu: qemu-riscv64, extra: -sifive-p870 }
           - { container: 'ubuntu:26.10', target: g++-riscv64-linux-gnu, qemu: qemu-riscv64, extra: -thead-c906 }
 
-          # { container: 'ubuntu:27.04', target: g++-riscv64-linux-gnu, qemu: qemu-riscv64 }
+          - { container: 'ubuntu:27.04', target: g++-riscv64-linux-gnu, qemu: qemu-riscv64 }
 
           - { container: 'ubuntu:20.04', target: g++-mingw-w64-i686, wine: wine }
           - { container: 'ubuntu:20.04', target: g++-mingw-w64-x86-64, wine: wine }
